@@ -6,20 +6,7 @@ This repository provides a comprehensive replication package for the study title
 
 The repository is organized into the following directories:
 
-### 1. `Empirical_Analysis_of_Layer_Redundancy_figures/`
-
-This folder contains the empirical results in the form of figures for all three tasks. It is divided into three subdirectories:
-
-- **`code_clone_analysis/`**
-- **`code_gen_analysis/`**
-- **`code_sum_analysis/`**
-
-Each task-specific folder includes:
-- **`bar_charts/`**: Bar charts showing the performance of four architectural components.
-- **`flops_score_charts/`**: FLOPs vs. performance score comparison for all models.
-- **`line_charts/`**: Line charts illustrating performance trends across architectural components.
-
-### 2. `clone_detection/`
+### 1. `clone_detection/`
 
 This folder contains code and data for conducting NAS and training models for the **code clone detection** task.
 
@@ -33,7 +20,7 @@ This folder contains code and data for conducting NAS and training models for th
   - **`data/`**: Contains all data related to code clone detection.
   - **`finetune/`**: Contains scripts for training and evaluating teacher models. Instructions are included within the folder.
 
-### 3. `code_generation/`
+### 2. `code_generation/`
 
 This folder contains code and training pipelines for the **code generation** task.
 
@@ -48,7 +35,7 @@ This folder contains code and training pipelines for the **code generation** tas
 
 Execution instructions are available inside the respective folders.
 
-### 4. `code_summarization/`
+### 3. `code_summarization/`
 
 This folder provides code and utilities for the **code summarization** task.
 
